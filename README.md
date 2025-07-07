@@ -38,7 +38,7 @@ python task_cli.py <命令> [参数]
 
 ------
 
-## 命令说明
+## 🛠️ 命令说明
 
 | 功能               | 命令示例                                                     |
 | ------------------ | ------------------------------------------------------------ |
@@ -48,13 +48,14 @@ python task_cli.py <命令> [参数]
 | 标记为 in-progress | `python task_cli.py mark-in-progress 2`                      |
 | 标记为 done        | `python task_cli.py mark-done 2`                             |
 | 列出所有任务       | `python task_cli.py list`                                    |
-| 按状态列出         | `python task_cli.py list done` `python task_cli.py list todo` `python task_cli.py list in-progress` |
+| 按状态列出         | `python task_cli.py list done`<br>`python task_cli.py list todo`<br>`python task_cli.py list in-progress` |
+| 查看指定任务       | `python task_cli.py view_task 1`                             |
 | 搜索关键词         | `python task_cli.py search groceries`                        |
-| 导出为 CSV         | `python task_cli.py export`（导出为 `tasks_export.csv`）     |
+| 导出为 CSV         | `python task_cli.py export_csv`（导出为 `tasks.csv`）        |
 | 重新排序任务       | `python task_cli.py reorder`                                 |
+| 清除已完成任务     | `python task_cli.py clean` 或 `python task_cli.py clean done` |
+| 清除所有任务       | `python task_cli.py clean_all`                               |
 | 查看帮助           | `python task_cli.py help`                                    |
-
-
 
 ------
 
